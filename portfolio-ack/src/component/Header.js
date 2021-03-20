@@ -14,8 +14,9 @@ const Header = (props) => {
               </div>
               <div className="headerMiddle">
                 <Link className="headerLink" to="/">Home</Link>
-                <Link className="headerLink" to="/Gallery">Gallery Page</Link>
-                <Link className="headerLink" to="/AddImage">AddImage</Link>
+                <Link className="headerLink" to="/">About Me</Link>
+                <Link className="headerLink" to="/Projects">Projects</Link>
+                <Link className="headerLink" to="/Work">Work Experience</Link>
               </div>
             </div>
          
