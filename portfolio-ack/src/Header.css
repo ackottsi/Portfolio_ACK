@@ -2,11 +2,11 @@ header {
     display: flex;
     flex-direction: row;   
     background-image: linear-gradient(to right, brown , yellow);
-    height: 140px;      
+    height: 75px;      
 }
 
 .headerBottomBorder {
-    height:35px;
+    height:1px;
     width: 100%;
     background-image: linear-gradient(to right, brown , yellow);
 }
@@ -105,7 +105,7 @@ nav {
     background-color: #2f3640;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-    height: 100px;
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
