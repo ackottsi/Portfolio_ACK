@@ -10,8 +10,10 @@ function AboutMe (props){
             <div className="about-me-container">
                     
                     <div className='about-me-text'>
-                        <p>I am a tech professional looking for the next opportunity.
-                        additional information is provided through the links at the top of the page.
+                        <p>
+                            I am a tech professional looking for the next opportunity. &nbsp; Previous positions include 
+                            Program Manager and Electronics Design Engineer.&nbsp;  I find great joy in problem solving and learning.
+                              &nbsp; Additional information is provided through the links at the top of the page.
                         </p>
                     </div>
 

@@ -32,6 +32,10 @@ class App extends Component{
                 <Route exact path="/AboutMe" render={(routerProps)=>(
                   <AboutMe/>
                 )}/>
+
+                <Route exact path="/Projects" render={(routerProps)=>(
+                  <Projects/>
+                )}/>
                    
   
     
