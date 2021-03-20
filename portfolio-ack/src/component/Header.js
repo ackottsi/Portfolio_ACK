@@ -14,7 +14,7 @@ const Header = (props) => {
               </div>
               <div className="headerMiddle">
                 <Link className="headerLink" to="/">Home</Link>
-                <Link className="headerLink" to="/">About Me</Link>
+                <Link className="headerLink" to="/AboutMe">About Me</Link>
                 <Link className="headerLink" to="/Projects">Projects</Link>
                 <Link className="headerLink" to="/Work">Work Experience</Link>
               </div>

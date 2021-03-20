@@ -5,6 +5,7 @@ import Header from './component/Header'
 import HomePage from './component/HomePage'
 import Projects from './component/Projects'
 import { Component } from 'react';
+import AboutMe from './component/AboutMe'
 
 
 class App extends Component{
@@ -20,18 +21,16 @@ class App extends Component{
   
             <div className="App">
   
-              <Header handleChange={this.handleChange} userLogin={this.userLogin}
-                    username={this.state.username} password={this.state.password} userId={this.state.userId} />
+              <Header />
                   
               <Switch>
               
               <Route exact path="/" render={(routerProps)=>(
-                    <HomePage username={this.state.username} loggedIn={this.state.loggedIn}
-                    logout={this.logout} {...routerProps}/>
+                    <HomePage {...routerProps}/>
                 )}/>
   
-                <Route exact path="/Projects" render={(routerProps)=>(
-                  <Projects/>
+                <Route exact path="/AboutMe" render={(routerProps)=>(
+                  <AboutMe/>
                 )}/>
                    
   

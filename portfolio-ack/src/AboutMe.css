@@ -1,0 +1,28 @@
+.about-me-container img{
+    height: 220px;
+    width: 240px;
+    margin: 0px 10px 0px 30px;
+}
+
+.about-me-container {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:center;
+    margin-top: 100px;
+    
+}
+
+.rotate90 {                             /* code borrowed from stack overflow*/
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.about-me-text{
+margin-left: 15px;
+align-content: center;
+}

@@ -6,9 +6,9 @@ function HomePage (props){
 
 
         return(  
-            <div>
+            <div className="homepage-container">
                     
-                   <h1>Hello {props.username}!</h1>   
+                   <h1>Hello</h1>   
                             
                     </div>
         )
