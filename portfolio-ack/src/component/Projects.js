@@ -14,8 +14,8 @@ const Projects = (props) => {
           <p>
               This is the first project I developed independently using vanilla javascript.  &nbsp;  
           </p>
-          <Link className="deployed-link" to='add-site'>Deployed Site</Link>
-          <Link className="deployed-link" to='add-site'>Git Hub repo</Link>
+          <a className="deployed-link" href='https://ackottsi.github.io/'>Deployed Site</a>
+          <a className="deployed-link" href='https://github.com/ackottsi/ackottsi.github.io'>Git Hub repo</a>
       </div>
 
 
@@ -26,8 +26,8 @@ const Projects = (props) => {
               struggles on this project.  I have left it at the current state as a reminder of the progress
               I have made over a short amount of time.
           </p>
-          <Link className="deployed-link" to='add-site'>Deployed Express App</Link>
-          <Link className="deployed-link" to='add-site'>Git Hub repo</Link>
+          <a className="deployed-link" href='https://movie-app-ack.herokuapp.com/'>Express App</a>
+          <a className="deployed-link" href='https://github.com/ackottsi/Project_2'>Git Hub repo</a>
       </div>
      
 
@@ -35,11 +35,24 @@ const Projects = (props) => {
       <div className="project-info-container">
           <h2>Project 3-React app</h2>
           <p>
-              This was a group project. &nbsp; React was the emphasis of the project.  &nbsp;
+              This was a group project. &nbsp; React was the emphasis of the project.  &nbsp;  I found
+              implementing the search bar to be the most intersting and challenging aspect of the project.
                 
           </p>
-          <Link className="deployed-link" to='add-site'>React app</Link>
-          <Link className="deployed-link" to='add-site'>Git Hub repo</Link>
+          <a className="deployed-link" href='http://couchslothmovies.surge.sh/'>React app</a>
+          <a className="deployed-link" href='https://github.com/ackottsi/React_Project_Three'>Git Hub repo</a>
+      </div>
+
+
+      <div className="project-info-container">
+          <h2>Project 4-First Full Stack Project</h2>
+          <p>
+             This was the capstone project for the immersive SW course. &nbsp; The project was built from the ground up using
+             concepts learned from the course.  &nbsp;  
+                
+          </p>
+          <a className="deployed-link" href='http://imagephotobookgaproject4.surge.sh/'>React app</a>
+          <a className="deployed-link" href='https://github.com/ackottsi/image_display_front_end'>Git Hub repo</a>
       </div>
      
     </div>

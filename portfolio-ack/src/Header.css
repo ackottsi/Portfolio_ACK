@@ -2,7 +2,7 @@ header {
     display: flex;
     flex-direction: row;   
     background-image: linear-gradient(to right, brown , yellow);
-    height: 75px;      
+    height: 70px;      
 }
 
 .headerBottomBorder {

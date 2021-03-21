@@ -2,6 +2,7 @@
     text-decoration: none;
     color: white;
     text-decoration: underline;
+    margin:0px 10px 0px 10px
 }
 
 .deployed-link:hover{
@@ -22,6 +23,6 @@
 
 .project-info-container{
     margin-top:40px;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 
 }
