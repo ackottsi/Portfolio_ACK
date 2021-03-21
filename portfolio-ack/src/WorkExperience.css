@@ -1,0 +1,16 @@
+
+.technical_skills{
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
+.company_desc{
+    font-style: italic;
+ 
+}
+
+
+  .job_details{
+      margin:10px;
+  }

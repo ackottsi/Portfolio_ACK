@@ -8,7 +8,8 @@ function HomePage (props){
         return(  
             <div className="homepage-container">
                     
-                   <h1>Hello</h1>   
+                   <h1>Hi, I'm Andrew!</h1>
+                    
                             
                     </div>
         )

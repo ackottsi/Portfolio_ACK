@@ -6,6 +6,7 @@ import HomePage from './component/HomePage'
 import Projects from './component/Projects'
 import { Component } from 'react';
 import AboutMe from './component/AboutMe'
+import WorkExperience from './component/WorkExperience';
 
 
 class App extends Component{
@@ -35,6 +36,10 @@ class App extends Component{
 
                 <Route exact path="/Projects" render={(routerProps)=>(
                   <Projects/>
+                )}/>
+
+                <Route exact path="/Work" render={(routerProps)=>(
+                  <WorkExperience/>
                 )}/>
                    
   
