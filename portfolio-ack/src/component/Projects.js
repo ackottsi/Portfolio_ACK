@@ -13,12 +13,12 @@ const Projects = (props) => {
     return (
         <div className='projects-container'>
       
-          <Card>
-            <CardBody>
+          <Card className="card-container">
+          <CardBody className="card-title-container">
               <CardTitle tag="h5">Project One</CardTitle>
               <CardSubtitle tag="h6" className="mb-2 text-muted">Simon Says</CardSubtitle>
-            </CardBody>
             <img width="80%" src="https://imagebucketgaackproject.s3.us-east-2.amazonaws.com/Imagefolder/Simon+Says+Game+Board.png" alt="Simon Says Game Board" />
+            </CardBody>
             <CardBody>
               <CardText>This is the first project I developed independently using vanilla javascript.</CardText>
               <CardLink href="#">github link</CardLink>
@@ -28,43 +28,49 @@ const Projects = (props) => {
         
 
         
-          <Card>
+          <Card className="card-container">
+            <CardBody className="card-title-container">
+              <CardTitle tag="h5">Project Two</CardTitle>
+              <CardSubtitle tag="h6" className="mb-2 text-muted">Movie Database App</CardSubtitle>
+            <img width="80%" src="https://imagebucketgaackproject.s3.us-east-2.amazonaws.com/Imagefolder/Project+two+screen+shot.png" alt="Card image cap" />
+            </CardBody>        
             <CardBody>
-              <CardTitle tag="h5">Card title</CardTitle>
-              <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-            </CardBody>
-            <img width="80%" src="/assets/318x180.svg" alt="Card image cap" />
-            <CardBody>
-              <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+              <CardText>First server side project and first group project.  Primary goals of project
+                  were to learn about production deployment and using git for collaboration.
+              </CardText>
               <CardLink href="#">Card Link</CardLink>
               <CardLink href="#">Another Link</CardLink>
             </CardBody>
           </Card>
 
-          <Card>
-            <CardBody>
+
+
+          <Card className="card-container">
+          <CardBody className="card-title-container">
               <CardTitle tag="h5">Project Three</CardTitle>
               <CardSubtitle tag="h6" className="mb-2 text-muted">React Movie App</CardSubtitle>
+            <img width="80%" src="https://imagebucketgaackproject.s3.us-east-2.amazonaws.com/Imagefolder/Screen+Shot+2021-03-31+at+9.20.23+PM+(2).png" alt="Card image cap" />
             </CardBody>
-            <img width="90%" src="https://imagebucketgaackproject.s3.us-east-2.amazonaws.com/Imagefolder/Screen+Shot+2021-03-31+at+9.20.23+PM+(2).png" alt="Card image cap" />
             <CardBody>
-              <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+              <CardText>This is a group project that is built using React.  Uses omdb API to provide data.</CardText>
               <CardLink href="#">Card Link</CardLink>
               <CardLink href="#">Another Link</CardLink>
             </CardBody>
           </Card>
 
 
-          <Card>
-            <CardBody>
-              <CardTitle tag="h5">Card title</CardTitle>
-              <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
+
+
+          <Card className="card-container">
+          <CardBody className="card-title-container">
+              <CardTitle tag="h5">Project Four</CardTitle>
+              <CardSubtitle tag="h6" className="mb-2 text-muted">Photo Gallery App</CardSubtitle> 
+            <img width="80%" src="https://imagebucketgaackproject.s3.us-east-2.amazonaws.com/Imagefolder/Project+4+screen+shot.png" alt="Card image cap" />
             </CardBody>
-            <img width="80%" src="/assets/318x180.svg" alt="Card image cap" />
             <CardBody>
-              <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-              <CardLink href="#">Card Link</CardLink>
-              <CardLink href="#">Another Link</CardLink>
+              <CardText>First full stack project.  Server side is deployed through Heroku.</CardText>
+              <CardLink href="#">Git repo</CardLink>
+              <CardLink href="#">Deployed App</CardLink>
             </CardBody>
           </Card>
      

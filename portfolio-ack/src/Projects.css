@@ -6,7 +6,6 @@
     align-items: center;
     border: solid orange;
     color:black;
-    height:500px;
     width: 25%;
 }
 
@@ -18,3 +17,17 @@
 .card-link{
     font-size: 14px;
 }
+
+.card img{
+    margin-top: 10px;
+    max-width:90%;
+    height: auto;
+}
+
+
+
+.card-container{
+   display: flex;
+   flex-direction: column;
+}
+
