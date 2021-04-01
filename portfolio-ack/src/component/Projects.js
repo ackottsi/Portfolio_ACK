@@ -11,38 +11,64 @@ import {
 
 const Projects = (props) => {
     return (
-        <div>
-        <Row>
-        <Col>
+        <div className='projects-container'>
+      
           <Card>
             <CardBody>
-              <CardTitle tag="h5">Card title</CardTitle>
+              <CardTitle tag="h5">Project One</CardTitle>
               <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
             </CardBody>
-            <img width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+            <img width="80%" src="https://imagebucketgaackproject.s3.us-east-2.amazonaws.com/Imagefolder/Simon+Says+Game+Board.png" alt="Simon Says Game Board" />
             <CardBody>
               <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-              <CardLink href="#">Card Link</CardLink>
-              <CardLink href="#">Another Link</CardLink>
+              <CardLink href="#">github link</CardLink>
+              <CardLink href="#">deployed app</CardLink>
             </CardBody>
           </Card>
-        </Col>
+        
 
-        <Col>
+        
           <Card>
             <CardBody>
               <CardTitle tag="h5">Card title</CardTitle>
               <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
             </CardBody>
-            <img width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+            <img width="80%" src="/assets/318x180.svg" alt="Card image cap" />
             <CardBody>
               <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
               <CardLink href="#">Card Link</CardLink>
               <CardLink href="#">Another Link</CardLink>
             </CardBody>
           </Card>
-        </Col>
-        </Row>
+
+          <Card>
+            <CardBody>
+              <CardTitle tag="h5">Card title</CardTitle>
+              <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
+            </CardBody>
+            <img width="80%" src="/assets/318x180.svg" alt="Card image cap" />
+            <CardBody>
+              <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+              <CardLink href="#">Card Link</CardLink>
+              <CardLink href="#">Another Link</CardLink>
+            </CardBody>
+          </Card>
+
+
+          <Card>
+            <CardBody>
+              <CardTitle tag="h5">Card title</CardTitle>
+              <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
+            </CardBody>
+            <img width="80%" src="/assets/318x180.svg" alt="Card image cap" />
+            <CardBody>
+              <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+              <CardLink href="#">Card Link</CardLink>
+              <CardLink href="#">Another Link</CardLink>
+            </CardBody>
+          </Card>
+     
+        
 
         </div>
       );
