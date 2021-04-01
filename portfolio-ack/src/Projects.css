@@ -4,7 +4,7 @@
     margin: 40px 15px 20px 15px;
     text-align: center;
     align-items: center;
-    border: solid orange;
+   
     color:black;
     width: 25%;
 }
@@ -26,8 +26,6 @@
 
 
 
-.card-container{
-   display: flex;
-   flex-direction: column;
+.link-container{
+    margin-bottom: 10px;
 }
-
