@@ -1,5 +1,9 @@
 import React from 'react';
 import '../WorkExperience.css';
+import {
+    Card, CardImg, CardText, CardBody,
+    CardTitle, CardSubtitle, Button
+  } from 'reactstrap';
 
 
 function WorkExperience (props){
