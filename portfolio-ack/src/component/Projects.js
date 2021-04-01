@@ -16,11 +16,11 @@ const Projects = (props) => {
           <Card>
             <CardBody>
               <CardTitle tag="h5">Project One</CardTitle>
-              <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
+              <CardSubtitle tag="h6" className="mb-2 text-muted">Simon Says</CardSubtitle>
             </CardBody>
             <img width="80%" src="https://imagebucketgaackproject.s3.us-east-2.amazonaws.com/Imagefolder/Simon+Says+Game+Board.png" alt="Simon Says Game Board" />
             <CardBody>
-              <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+              <CardText>This is the first project I developed independently using vanilla javascript.</CardText>
               <CardLink href="#">github link</CardLink>
               <CardLink href="#">deployed app</CardLink>
             </CardBody>
@@ -43,10 +43,10 @@ const Projects = (props) => {
 
           <Card>
             <CardBody>
-              <CardTitle tag="h5">Card title</CardTitle>
-              <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
+              <CardTitle tag="h5">Project Three</CardTitle>
+              <CardSubtitle tag="h6" className="mb-2 text-muted">React Movie App</CardSubtitle>
             </CardBody>
-            <img width="80%" src="/assets/318x180.svg" alt="Card image cap" />
+            <img width="90%" src="https://imagebucketgaackproject.s3.us-east-2.amazonaws.com/Imagefolder/Screen+Shot+2021-03-31+at+9.20.23+PM+(2).png" alt="Card image cap" />
             <CardBody>
               <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
               <CardLink href="#">Card Link</CardLink>
