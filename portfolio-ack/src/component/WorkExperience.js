@@ -13,7 +13,7 @@ function WorkExperience (props){
   <TimelineItem
     key="001"
     dateText="12/2020 – Present"
-    style={{ color: '#e86971' }}
+    dateInnerStyle={{ background: '#e86971', color: '#000' }}
     bodyContainerStyle={{
         background: '#ddd',
         padding: '20px',
@@ -38,7 +38,7 @@ function WorkExperience (props){
   <TimelineItem
     key="002"
     dateText="05/2017 – 11/2020"
-    dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+    dateInnerStyle={{ background: '#17a2b8', color: '#000' }}
     bodyContainerStyle={{
       background: '#ddd',
       padding: '20px',
@@ -47,13 +47,13 @@ function WorkExperience (props){
     }}
   >
     <h3 className='position-title'>Program Manager, Product Delivery Process (PDP)</h3>
-    <h4  className='company-title'>John Deere ISG-Fargo</h4> 
+    <h4  className='company-title'>John Deere ISG-Fargo, ND</h4> 
     <h4  className='company-desc'>ISG-Fargo provides information technology 
     systems, solutions, and services to agricultural and construction vehicle manufacturers</h4> 
     &nbsp;
 
     <p>
-     Lead project teams of 5-20 individual contributors.  Team members could be located in different physical locations.
+     Led project teams of 5-20 individual contributors.  Team members could be located in different physical locations.
      Project budgets varied from $50k to $1.5M in scope.  Managed risk activities and led plans to mitigate identified
      risks.  Created and managed project schedules.  Lead project proposal teams during quoting process activities.
     </p>
@@ -73,7 +73,7 @@ function WorkExperience (props){
   <TimelineItem
     key="003"
     dateText="04/2013 – 5/2017"
-    dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+    dateInnerStyle={{ background: '#388e3c', color: '#000' }}
     bodyContainerStyle={{
       background: '#ddd',
       padding: '20px',
@@ -81,8 +81,8 @@ function WorkExperience (props){
       boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
     }}
   >
-   <h3 className='position-title'>Program Manager Order Fullfillment Process</h3>
-    <h4  className='company-title'>John Deere-ISG Fargo</h4> 
+   <h3 className='position-title'>Program Manager, Order Fullfillment Process (OFP)</h3>
+    <h4  className='company-title'>John Deere ISG-Fargo, ND</h4> 
 
     &nbsp;
     <p>
@@ -98,7 +98,7 @@ function WorkExperience (props){
   <TimelineItem
     key="004"
     dateText="05/2011 – 04/2013"
-    dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+    dateInnerStyle={{ background: '#617aff', color: '#000' }}
     bodyContainerStyle={{
       background: '#ddd',
       padding: '20px',
@@ -107,7 +107,7 @@ function WorkExperience (props){
     }}
   >
  <h3 className='position-title' >Electronic Design Engineer</h3>
-    <h4  className='company-title'>John Deere ISG-Fargo</h4> 
+    <h4  className='company-title'>John Deere ISG-Fargo, ND</h4> 
   
     &nbsp;
     <p>
@@ -122,8 +122,8 @@ function WorkExperience (props){
 
   <TimelineItem
     key="004"
-    dateText="05/2011 – 04/2013"
-    dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+    dateText="06/2006 – 04/2011"
+    dateInnerStyle={{ background: '#9e9e9e', color: '#000' }}
     bodyContainerStyle={{
       background: '#ddd',
       padding: '20px',
@@ -131,15 +131,15 @@ function WorkExperience (props){
       boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
     }}
   >
- <h3 className='position-title' >Electronic Design Engineer</h3>
+ <h3 className='position-title' >Electrical Engineer</h3>
     <h4  className='company-title'>Collins Aerospace-Cedar Rapids, IA</h4> 
-    <h4  className='company-desc'>Collins Aerospace provides aviation and information technology systems, solutions, and services to governmental agencies and aircraft manufacturers</h4> 
+    <h4  className='company-desc'>Collins Aerospace provides aviation and information technology systems, solutions, and services to government agencies and aircraft manufacturers</h4> 
     &nbsp;
     <p>
-      Designed robust circuit card assemblies for rugged agricultural
-      and construction vehicles.  Followed product development cycle from prototype phase
-      to product production lauch.  Worked with Mentor Graphics schematic capture and PCB layout tools.
-      Demonstrated ability to analzye designs and implement design concepts in to product solution.
+      Designed robust circuit card assemblies for maintenance computers
+      and dataloaders to be installed into aircrafts.  Gained experience 
+      in troubleshooting and addressing production issues on the factory floor.
+      Areas of interest included EMC/EMI design, power supply architectures, and modular design.
     </p>
    
   </TimelineItem>
