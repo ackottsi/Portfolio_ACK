@@ -14,3 +14,26 @@
   .job_details{
       margin:10px;
   }
+
+
+  /* .work-experience-container{
+      display: flex;
+  } */
+
+  .title{
+      margin-left: 0;
+  }
+
+
+
+  .timeline:before{
+      z-index: 1;
+  }
+
+
+.company-desc{
+      font-style: italic;
+      font-size: 1.0rem;
+      color: red;
+  }
+
